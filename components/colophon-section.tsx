@@ -91,11 +91,11 @@ export function ColophonSection() {
 
       {/* Multi-column layout — Team, Reviewers, Special Thanks. Add more columns or list items as needed. */}
       <div ref={gridRef} className="grid grid-cols-2 md:grid-cols-4 lg:grid-cols-6 gap-8 md:gap-12">
-        {/* Team — replace "joe doe" with your team member names. */}
+        {/* Team — add your team member names. */}
         <div className="col-span-1">
           <h4 className="font-mono text-[9px] uppercase tracking-[0.3em] text-muted-foreground mb-4">Team</h4>
           <ul className="space-y-2">
-            <li className="font-mono text-xs text-foreground/80">joe doe</li>
+            <li className="font-mono text-xs text-foreground/80">Ashru Singh</li>
           </ul>
         </div>
 
@@ -103,7 +103,7 @@ export function ColophonSection() {
         <div className="col-span-1">
           <h4 className="font-mono text-[9px] uppercase tracking-[0.3em] text-muted-foreground mb-4">Reviewers (in video)</h4>
           <ul className="space-y-2">
-            <li className="font-mono text-xs text-foreground/80">joe doe</li>
+            <li className="font-mono text-xs text-foreground/80">Ashru Singh</li>
           </ul>
         </div>
 
